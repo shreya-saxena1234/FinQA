@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FinQA - Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Cryptocurrency Landing Page Template" />
+    <meta name="keywords" content="cryptocurrency, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link href="/img/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="../css/upload.css" />
+    <!-- <style>
+      .container {
+        display: flex;
+        justify-content: flex-end;
+      }
+    </style> -->
+  </head>
+  <body>
+    <div class="main">
+      <div class="upload-img">
+        <img src="../img/uploading.png" />
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <h3>Upload Files</h3>
+          <div class="drop_box">
+            <header>
+              <h4>Select File here</h4>
+            </header>
+            <p>Files Supported: PDF, TEXT, DOC, DOCX</p>
+            <input
+              type="file"
+              hidden
+              accept=".doc,.docx,.pdf"
+              id="fileID"
+              style="display: none"
+            />
+
+            <button
+              class="btn"
+              onclick="document.getElementById('fileID').click()"
+            >
+              Choose File
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
